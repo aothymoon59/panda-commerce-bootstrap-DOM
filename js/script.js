@@ -68,13 +68,13 @@ let categories = document.getElementsByClassName("category");
 for (const category of categories) {
   category.addEventListener("mouseenter", function (e) {
     if (e.target.innerText.toLowerCase() == "watch".toLocaleLowerCase()) {
-      categoryOne.src = "./images/categories/watch2.png";
+      categoryOne.src = "images/categories/watch2.png";
     } else if (e.target.innerText.toLowerCase() == "bags".toLocaleLowerCase()) {
-      categoryTwo.src = "./images/categories/bag2.png";
+      categoryTwo.src = "images/categories/bag2.png";
     } else if (
       e.target.innerText.toLowerCase() == "shoes".toLocaleLowerCase()
     ) {
-      categoryThree.src = "./images/categories/shoe2.png";
+      categoryThree.src = "images/categories/shoe2.png";
     }
   });
 }
